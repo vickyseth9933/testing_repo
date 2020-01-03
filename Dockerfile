@@ -15,3 +15,4 @@ USER mongodb
 WORKDIR /var/lib/mongodb
 ENTRYPOINT ["/usr/bin/mongod", "--config", "/etc/mongodb.conf"]
 CMD ["--quiet"]
+#CMD ["--sh"]
