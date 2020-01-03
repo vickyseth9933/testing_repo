@@ -1,7 +1,7 @@
 
 
 FROM fedora:20
-MAINTAINER Mark Lamourine
+MAINTAINER Vicky Seth
 #COMMENT { "description": "mongodb service container",
 # "usage": "docker run -d -p 27017:27017 --name mongodb mlamouri/mongodb --volume=/mydbdatadir:/var/lib/mongodb" }
 RUN  yum install -y mongodb-server && yum clean all
