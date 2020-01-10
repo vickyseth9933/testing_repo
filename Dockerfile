@@ -17,3 +17,4 @@ ENTRYPOINT ["/usr/bin/mongod", "--config", "/etc/mongodb.conf"]
 CMD ["--quiet"]
 #CMD ["--sh"]
 #RUN apt-get update
+
